@@ -1,0 +1,86 @@
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.navbar li {
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    display: inline-block;
+    padding: 18px 30px;
+    margin: 5px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(189, 94, 39);
+}
+
+.banner {
+    background-image: linear-gradient(rgb(40, 46, 43), rgb(103, 109, 103), rgb(197, 197, 194));
+    color: white;
+    text-indent: 100px;
+    padding: 50px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cooking {
+    width: 100%;
+    margin-top: 60px;
+    filter: drop-shadow(8px 8px 20px rgb(158, 158, 158));
+    z-index:-1;
+}
+
+.form {
+    outline: none;
+    width:30%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 20px;
+    color:black;
+}
+
+.form2 {
+    outline: none;
+    width:5%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 20px;
+    color:black;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#button {
+    background-color:rgb(189, 94, 39);
+    border: none;
+    color: white;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 70px;
+    margin: 30px 100px;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+body {
+    background-image: url('../resources/cooking.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: -20px;
+  }
+  
